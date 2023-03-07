@@ -1,0 +1,75 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.main-container {
+	display: flex;
+	flex-direction: column;
+	width: 70vw;
+	justify-content: space-between;
+	background-color: rgb(120, 218, 81);
+	margin: 50px auto;
+	border-radius: 1em;
+	padding: 2rem;
+}
+
+#btns {
+	min-height: 1rem;
+	padding: 0.5rem;
+	border-radius: 1rem;
+	text-align: center;
+	border: 1px solid rgb(255, 255, 255);
+	background-color: rgb(55, 0, 255);
+}
+
+button {
+	height: 40px;
+	border: none;
+	padding: 0.5rem 1rem;
+	border-radius: 0.5rem;
+	cursor: pointer;
+}
+
+#mymap {
+    height: 550;
+	padding: 0 1rem;
+	margin-top: 2rem;
+	min-height: 60vh;
+	border: 3px solid rgb(206, 213, 67);
+	background-color: rgb(244, 234, 231);
+	border-radius: 2rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#info {
+	width: 60%;
+	margin: 0.5em auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+#info > span {
+	margin: 0.5rem;
+	width: 100%;
+	text-align: center;
+}
+#info > span:nth-child(odd) {
+	font-weight: bold;
+	font-size: 1.5rem;
+	background-color: rgb(141, 106, 106);
+	color: black;
+}
+#info > span:nth-child(even) {
+	font-weight: bold;
+	font-size: 1.5rem;
+	background-color: lightgrey;
+	color: rgb(59, 70, 41);
+}
+#info:hover{transform: rotate(-45deg);
+    transition: all 5s;
+    
+     
+	box-shadow: 5px 5px 8px rgb(243, 219, 3);}
